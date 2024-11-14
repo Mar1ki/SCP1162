@@ -14,6 +14,7 @@ using InventorySystem.Items;
 using Quaternion = UnityEngine.Quaternion;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
+using Utf8Json.Formatters;
 
 
 namespace SCP1162
@@ -49,9 +50,21 @@ namespace SCP1162
             scp1162Pick.Scale = new Vector3(10,10,10);
             _scp1162 = scp1162Pick.Serial;
         }
+        public bool CalculatePercent(int chance)
+        {
+            int num = Random.Range(0, 100);
+            if (num <= chance)
+            {
+                return true;
+            }
+            return false;
+        }
         public void OnRoundStart()
         {
-            SpawnScp1162();
+            if (CalculatePercent(Plugin.Instance.Config.PercentSpawn))
+            {
+                SpawnScp1162();
+            }
         }
 
         private static void GiveItem(Player player)

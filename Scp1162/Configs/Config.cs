@@ -9,6 +9,9 @@ namespace SCP1162.Configs
     {
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = true;
+
+        [Description("SCP-1162 spawn chance")]
+        public int PercentSpawn { get; set; } = 100;
         [Description("How much damage should players get when using Scp-1162 without holding an item in hand (set to 0 to disable)")]
         public int HealthMinus { get; set; } = 25;
         [Description("The chance that the item disappears in % (set to 0 to disable)")]
