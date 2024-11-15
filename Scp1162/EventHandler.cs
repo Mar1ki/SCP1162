@@ -79,6 +79,7 @@ namespace SCP1162
         }
         public void PickingScp1162(PickingUpItemEventArgs ev)
         {
+            if(_scp1162==0) return;
             if (_scp1162 != ev.Pickup.Serial) return;
             var percentDisappearing = Plugin.Instance.Config.PercentDisappearing;
             if (ev.Player.CurrentItem != null)
