@@ -44,7 +44,7 @@ namespace SCP1162
             var globalCords = GetGlobalCords(localPos, room);
             var rotation = room.Rotation;
             var quaternion = Quaternion.Euler(rot.x, rotation.eulerAngles.y + rot.y, rot.z);
-            var scp1162Pick = Pickup.CreateAndSpawn(ItemType.SCP500, globalCords, quaternion);
+            var scp1162Pick = Pickup.Create(ItemType.SCP500).Spawn(globalCords, quaternion);
             scp1162Pick.Rigidbody.useGravity = false;
             scp1162Pick.Rigidbody.detectCollisions = false;
             scp1162Pick.Scale = new Vector3(10,10,10);
