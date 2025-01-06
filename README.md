@@ -4,7 +4,7 @@
 </div>
 
 # Installation
-Please use Exiled [8.9.7](https://github.com/Exiled-Official/EXILED/releases/tag/8.9.7) or above for this project
+Please use Exiled [9.2.2](https://github.com/ExMod-Team/EXILED/releases/tag/v9.2.2) or above for this project
 
 1. Download the latest release
 2. Put the plugin into the `.config/EXILED/Plugins` folder
