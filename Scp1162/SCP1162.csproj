@@ -41,26 +41,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\ExiledPlugins\Assembly-CSharp-Publicized.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp_publicized">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\Assembly-CSharp_publicized.dll</HintPath>
     </Reference>
     <Reference Include="CommandSystem.Core">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\CommandSystem.Core.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.API">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\Exiled.API.dll</HintPath>
-    </Reference>
-    <Reference Include="Exiled.CreditTags">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\Exiled.CreditTags.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.CustomItems">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\Exiled.CustomItems.dll</HintPath>
@@ -74,20 +70,11 @@
     <Reference Include="Exiled.Permissions">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\Exiled.Permissions.dll</HintPath>
     </Reference>
-    <Reference Include="LiteDB">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\LiteDB.dll</HintPath>
-    </Reference>
     <Reference Include="MapEditorReborn">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\MapEditorReborn.dll</HintPath>
     </Reference>
     <Reference Include="Mirror">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\Mirror.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Security">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\Mono.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NorthwoodLib">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\NorthwoodLib.dll</HintPath>
@@ -95,26 +82,21 @@
     <Reference Include="PluginAPI">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\PluginAPI.dll</HintPath>
     </Reference>
-    <Reference Include="Pooling">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\Pooling.dll</HintPath>
-    </Reference>
-    <Reference Include="SCPSLAudioApi">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\SCPSLAudioApi.dll</HintPath>
-    </Reference>
     <Reference Include="SemanticVersioning">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\SemanticVersioning.dll</HintPath>
     </Reference>
+    <Reference Include="ServerSpecificSyncer-EXILED">
+      <HintPath>..\..\..\..\..\..\ExiledPlugins\ServerSpecificSyncer-EXILED.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\System.Threading.Tasks.Extensions.dll</HintPath>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>..\..\..\..\..\..\ExiledPlugins\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\ExiledPlugins\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\UnityEngine.CoreModule.dll</HintPath>
@@ -122,8 +104,8 @@
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>..\..\..\..\..\..\ExiledPlugins\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>..\..\..\..\..\..\ExiledPlugins\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    <Reference Include="YamlDotNet">
+      <HintPath>..\..\..\..\..\..\ExiledPlugins\YamlDotNet.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
