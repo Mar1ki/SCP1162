@@ -1,20 +1,14 @@
 ﻿using Exiled.API.Features;
 using MEC;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using Exiled.API.Enums;
-using Exiled.API.Extensions;
 using Exiled.API.Features.Items;
 using Exiled.Events.EventArgs.Player;
 using Exiled.API.Features.Pickups;
-using Exiled.CustomItems.API.Features;
-using InventorySystem;
-using InventorySystem.Items;
 using Quaternion = UnityEngine.Quaternion;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
-using Utf8Json.Formatters;
 
 
 namespace SCP1162

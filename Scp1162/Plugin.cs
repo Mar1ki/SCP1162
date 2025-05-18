@@ -1,4 +1,5 @@
-﻿using Exiled.API.Features;
+﻿using System;
+using Exiled.API.Features;
 using SCP1162.Configs;
 
 namespace SCP1162
@@ -8,7 +9,8 @@ namespace SCP1162
         public override string Prefix => "Scp-1162";
         public override string Name => "Scp-1162";
         public override string Author => "Mariki";
-        public override System.Version Version { get; } = new System.Version(1, 8, 0);
+        public override Version Version { get; } = new Version(1, 8, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(9, 6, 0);
         public static Plugin Instance;
         private EventHandler _eventHandler;
 

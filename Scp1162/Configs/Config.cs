@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using Exiled.API.Interfaces;
+using System.IO;
 
 namespace SCP1162.Configs
 {
